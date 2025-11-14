@@ -1,7 +1,7 @@
 """
 Copyright (C) 2025 Fu Tszkok
 
-:module: iteration
+:module: algorithm
 :function: Implements dynamic programming algorithms for solving Markov Decision Processes.
 :author: Fu Tszkok
 :date: 2025-10-23

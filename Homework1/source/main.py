@@ -14,7 +14,7 @@ This code is licensed under GNU Affero General Public License v3 (AGPLv3) with a
 Full AGPLv3 text available in LICENSE file or at <https://www.gnu.org/licenses/agpl-3.0.html>
 """
 
-from iteration import *
+from algorithm import *
 from layout import *
 from maze import MazeEnvironment
 from visualization import *
@@ -75,7 +75,7 @@ plot_value_function_snapshots(maze_env, v_history_pi, "Policy Iteration", num_sn
 # --- 4. Truncated Policy Iteration ---
 
 # Run the Policy Iteration algorithm, which alternates between policy evaluation and policy improvement until convergence.
-print("\n--- Truncated Policy Iteration ---")
+print("--- Truncated Policy Iteration ---")
 V_tpi, policy_tpi, v_history_tpi = truncated_policy_iteration(maze_env)
 
 # Extract start state value history for the convergence plot
