@@ -24,6 +24,8 @@ The full legal text is available in the aforementioned license documents. Usage 
 ## Repository Contents
 
 * Homework1 - Grid Maze Solver
+* Homework2 - Cliff Walk with TD Learning
+* Homework3 - DRL Application (Gomoku with AlphaZero)
 
 Additionally, in the root directory of this repository, you will find the repository's documentation (`Readme.md`), its environment configuration file (`environment.yml`), and the open-source license (`LICENSE`).
 
